@@ -24,11 +24,13 @@ header {
 .header-icons {
 	float: right;
 	margin-top: 10px;
+	padding-right: 130px;
 }
 
 .header-text {
 	align-self: flex-start;
 	color: white;
+	padding-left: 100px;
 }
 
 .name {
@@ -62,6 +64,10 @@ header {
 	font-size: 40px;
 	font: bold;
 	color: white;
+}
+
+.profile-pic-div {
+	padding-right: 100px;
 }
 
 .profile-picture {
