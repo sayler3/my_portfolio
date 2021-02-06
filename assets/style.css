@@ -198,3 +198,25 @@ header {
 	margin: 0;
 	padding: 0;
 }
+
+/* mobile */
+@media (max-width: 480px) {
+	header {
+		background-position: center right;
+	}
+
+	.header-text {
+		padding-top: 10px;
+	}
+}
+/* end mobile media query */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+	header {
+		background-position: center right;
+	}
+
+	.header-text {
+		padding-top: 10px;
+	}
+}
